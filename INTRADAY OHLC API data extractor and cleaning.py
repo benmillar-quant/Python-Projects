@@ -10,7 +10,7 @@ def download_market_data():
     counter = 1
     start_month = datetime(2024, 6, 1)
     end_month = datetime(2024, 8, 31)
-    base_api_url = "https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=DIA&interval=1min&extended_hours=False&outputsize=full&datatype=json&apikey=RUAB241ATPLNS4DD"
+    base_api_url = "https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=DIA&interval=1min&extended_hours=False&outputsize=full&datatype=json&apikey=XXXXXXXXXXXXXXX"
 
     current_month = start_month
     while current_month <= end_month:
